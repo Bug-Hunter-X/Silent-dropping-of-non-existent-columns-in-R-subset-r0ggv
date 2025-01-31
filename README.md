@@ -1,0 +1,1 @@
+This repository demonstrates a subtle but common error in R when subsetting data frames using character vectors.  If you attempt to select columns that don't exist, R silently drops them without issuing a warning, which can lead to difficult-to-debug errors. The `bug.R` file illustrates the problem, while `bugSolution.R` shows a robust way to handle this situation.
